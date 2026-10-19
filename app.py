@@ -226,7 +226,7 @@ if st.session_state.seating_grid is not None:
             📺 칠판 / 교탁 (FRONT)
         </div>
         """,
-        unsafe_allow_cols=True if hasattr(st, 'unsafe_allow_cols') else True
+        unsafe_allow_html=True
     )
 
     # Render Interactive Grid Card Buttons
